@@ -80,11 +80,6 @@ export function getQuestionsForIndustry(industry: string): Question[] {
 // Get all available industry types
 export const companyTypes = Object.keys(questionsByIndustry);
 
-// Debug: Log to ensure data is loaded
-if (typeof window !== 'undefined') {
-  console.log('Company types loaded:', companyTypes.length, companyTypes);
-}
-
 export const annualTurnover = [
   '€0 - 4,999,999',
   '€5,000,000 - 49,999,999',

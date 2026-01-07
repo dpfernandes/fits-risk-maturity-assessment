@@ -16,9 +16,9 @@ interface CompanyInfoFormProps {
 }
 
 export function CompanyInfoForm({ data, onChange, className }: CompanyInfoFormProps) {
-  // Debug: Log company types to console
+  // Ensure companyTypes is available
   if (companyTypes.length === 0) {
-    console.error('No company types found. Check if JSON data is loading correctly.');
+    console.warn('Company types not loaded. Available types:', companyTypes);
   }
 
   return (
@@ -35,7 +35,7 @@ export function CompanyInfoForm({ data, onChange, className }: CompanyInfoFormPr
       <div className="space-y-5">
         <div className="space-y-2">
           <Label htmlFor="company-type" className="text-base font-medium">
-            Select Your Industry
+            Select Your Industry <span className="text-destructive">*</span>
           </Label>
           <p className="text-sm text-muted-foreground mb-4">
             Choose the industry that best matches your organization. The questions will be tailored to your industry.
@@ -43,21 +43,20 @@ export function CompanyInfoForm({ data, onChange, className }: CompanyInfoFormPr
           {companyTypes.length === 0 ? (
             <div className="p-4 border border-destructive rounded-md bg-destructive/10">
               <p className="text-sm text-destructive">
-                Unable to load industries. Please refresh the page or contact support.
+                Unable to load industries. Please refresh the page.
               </p>
             </div>
           ) : (
             <Select
               value={data.companyType}
               onValueChange={(value) => {
-                console.log('Selected industry:', value);
                 onChange({ ...data, companyType: value });
               }}
             >
-              <SelectTrigger id="company-type" className="h-12">
+              <SelectTrigger id="company-type" className="h-12 w-full">
                 <SelectValue placeholder="Select your industry" />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent className="max-h-[300px]">
                 {companyTypes.map((type) => (
                   <SelectItem key={type} value={type}>
                     {type}
