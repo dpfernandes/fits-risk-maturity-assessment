@@ -16,6 +16,11 @@ interface CompanyInfoFormProps {
 }
 
 export function CompanyInfoForm({ data, onChange, className }: CompanyInfoFormProps) {
+  // Debug: Log company types to console
+  if (companyTypes.length === 0) {
+    console.error('No company types found. Check if JSON data is loading correctly.');
+  }
+
   return (
     <div className={cn("animate-fade-in space-y-6", className)}>
       <div>
@@ -35,21 +40,32 @@ export function CompanyInfoForm({ data, onChange, className }: CompanyInfoFormPr
           <p className="text-sm text-muted-foreground mb-4">
             Choose the industry that best matches your organization. The questions will be tailored to your industry.
           </p>
-          <Select
-            value={data.companyType}
-            onValueChange={(value) => onChange({ ...data, companyType: value })}
-          >
-            <SelectTrigger id="company-type" className="h-12">
-              <SelectValue placeholder="Select your industry" />
-            </SelectTrigger>
-            <SelectContent>
-              {companyTypes.map((type) => (
-                <SelectItem key={type} value={type}>
-                  {type}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+          {companyTypes.length === 0 ? (
+            <div className="p-4 border border-destructive rounded-md bg-destructive/10">
+              <p className="text-sm text-destructive">
+                Unable to load industries. Please refresh the page or contact support.
+              </p>
+            </div>
+          ) : (
+            <Select
+              value={data.companyType}
+              onValueChange={(value) => {
+                console.log('Selected industry:', value);
+                onChange({ ...data, companyType: value });
+              }}
+            >
+              <SelectTrigger id="company-type" className="h-12">
+                <SelectValue placeholder="Select your industry" />
+              </SelectTrigger>
+              <SelectContent>
+                {companyTypes.map((type) => (
+                  <SelectItem key={type} value={type}>
+                    {type}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          )}
         </div>
 
         <div className="space-y-2">
