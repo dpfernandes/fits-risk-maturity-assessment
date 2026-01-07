@@ -54,7 +54,8 @@ export function AssessmentContainer() {
     if (currentQuestionIndex < totalQuestions - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
-      setStep('company');
+      // After all questions, go to results
+      setStep('results');
     }
   };
 
@@ -77,14 +78,13 @@ export function AssessmentContainer() {
 
   const handleCompanyInfoNext = () => {
     if (companyInfo.companyType) {
-      setStep('questions');
+      // Reset answers when starting new assessment
+      setAnswers({});
       setCurrentQuestionIndex(0);
+      setStep('questions');
     }
   };
 
-  const handleSubmit = () => {
-    setStep('results');
-  };
 
   const handleRestart = () => {
     setStep('intro');
@@ -95,7 +95,6 @@ export function AssessmentContainer() {
 
   const currentAnswers = answers[currentQuestion?.id] || [];
   const hasAnswer = currentAnswers.length > 0;
-  const hasCompanyInfo = companyInfo.companyType && companyInfo.turnover && companyInfo.employees;
 
   if (step === 'intro') {
     return (
