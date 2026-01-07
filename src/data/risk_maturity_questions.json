@@ -1,0 +1,2444 @@
+{
+    "Banking, Financial Services & Insurance (BFSI)": [
+        {
+            "Question": "How frequently does your organization review and update its risk management policies to align with evolving financial regulations (e.g., Basel III, GDPR, PSD2)?",
+            "Answers": [
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Continuously/real-time",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Rarely or never",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "Does your board of directors actively participate in risk oversight, including cybersecurity and financial risk?",
+            "Answers": [
+                {
+                    "Answer": "Occasionally",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Yes, with integrated risk dashboards for real-time monitoring",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Yes, but only for major risks",
+                    "Points": 3
+                },
+                {
+                    "Answer": "No",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Yes, with dedicated risk committees",
+                    "Points": 4
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How does your organization ensure compliance with anti-money laundering (AML) and know-your-customer (KYC) regulations?",
+            "Answers": [
+                {
+                    "Answer": "Advanced transaction monitoring systems",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Manual processes",
+                    "Points": 1
+                },
+                {
+                    "Answer": "AI-driven anomaly detection",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic automated checks",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Fully integrated AML/KYC platforms with real-time reporting",
+                    "Points": 5
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How often do you conduct third-party vendor risk assessments for critical service providers (e.g., cloud, payment processors)?",
+            "Answers": [
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Continuously, with automated alerts",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "What is your approach to managing IT and cybersecurity risks, including data breaches and ransomware?",
+            "Answers": [
+                {
+                    "Answer": "Regular vulnerability scans",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Proactive threat hunting and penetration testing",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic firewalls and antivirus",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Zero-trust architecture with AI-driven threat response",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Reactive",
+                    "Points": 1
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate credit risk exposure?",
+            "Answers": [
+                {
+                    "Answer": "Manual credit checks",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Advanced analytics for portfolio risk",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Predictive modeling for default probabilities",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Real-time credit risk monitoring with AI",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Basic credit scoring models",
+                    "Points": 2
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "Do you use stress testing and scenario analysis to evaluate financial resilience?",
+            "Answers": [
+                {
+                    "Answer": "Annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Continuously, with automated scenario modeling",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Occasionally, for major events",
+                    "Points": 2
+                },
+                {
+                    "Answer": "No",
+                    "Points": 1
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How does your organization identify and respond to emerging risks (e.g., fintech disruption, regulatory changes)?",
+            "Answers": [
+                {
+                    "Answer": "Predictive analytics for trend forecasting",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Ad-hoc discussions",
+                    "Points": 2
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Dedicated risk intelligence team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "AI-driven horizon scanning with automated alerts",
+                    "Points": 5
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you promote a risk-aware culture among employees?",
+            "Answers": [
+                {
+                    "Answer": "Continuous microlearning with real-time feedback",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal training",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Gamified risk training programs",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Regular risk awareness workshops",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Annual compliance training",
+                    "Points": 2
+                }
+            ],
+            "Weight": 1,
+            "Max Points": 5
+        },
+        {
+            "Question": "How do you manage risks associated with adopting new technologies (e.g., blockchain, AI, open banking)?",
+            "Answers": [
+                {
+                    "Answer": "Ad-hoc risk assessments",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Dedicated innovation risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Sandbox environments with real-time risk monitoring",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Pilot programs with risk controls",
+                    "Points": 4
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you monitor and mitigate reputational risks (e.g., social media, customer complaints)?",
+            "Answers": [
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Basic sentiment analysis",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Real-time brand monitoring tools",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Reactive PR responses",
+                    "Points": 2
+                },
+                {
+                    "Answer": "AI-driven reputational risk prediction and response",
+                    "Points": 5
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How often do you test your business continuity and disaster recovery (BC/DR) plans?",
+            "Answers": [
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Monthly, with automated failover testing",
+                    "Points": 5
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you ensure compliance with data privacy regulations (e.g., GDPR, CCPA)?",
+            "Answers": [
+                {
+                    "Answer": "AI-driven privacy compliance with real-time audits",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Automated data mapping and consent management",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic encryption and access controls",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Manual checks",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Dedicated data protection officer (DPO)",
+                    "Points": 3
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate risks in your supply chain (e.g., vendor failures, geopolitical risks)?",
+            "Answers": [
+                {
+                    "Answer": "Predictive analytics for supply chain disruptions",
+                    "Points": 4
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Regular risk assessments",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Real-time supply chain risk monitoring with AI",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Basic vendor audits",
+                    "Points": 2
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you integrate environmental, social, and governance (ESG) risks into your strategy?",
+            "Answers": [
+                {
+                    "Answer": "Dedicated ESG risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Real-time ESG risk monitoring with automated reporting",
+                    "Points": 5
+                },
+                {
+                    "Answer": "ESG metrics linked to executive incentives",
+                    "Points": 4
+                },
+                {
+                    "Answer": "No formal integration",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Basic ESG reporting",
+                    "Points": 2
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        }
+    ],
+    "Healthcare & Life Sciences": [
+        {
+            "Question": "How frequently does your organization review and update its compliance policies to align with healthcare regulations (e.g., HIPAA, GDPR, FDA)?",
+            "Answers": [
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Continuously/real-time",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Rarely or never",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "Does your board actively participate in risk oversight, including patient data security and clinical risks?",
+            "Answers": [
+                {
+                    "Answer": "No",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Yes, but only for major risks",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Yes, with integrated risk dashboards for real-time monitoring",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Yes, with dedicated risk committees",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Occasionally",
+                    "Points": 2
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you ensure compliance with patient data protection regulations (e.g., HIPAA)?",
+            "Answers": [
+                {
+                    "Answer": "Manual processes",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Advanced transaction monitoring systems",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Fully integrated data protection platforms with real-time reporting",
+                    "Points": 5
+                },
+                {
+                    "Answer": "AI-driven anomaly detection",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic automated checks",
+                    "Points": 2
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How often do you conduct third-party vendor risk assessments for critical service providers (e.g., EHR systems, cloud services)?",
+            "Answers": [
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Continuously, with automated alerts",
+                    "Points": 5
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "What is your approach to managing IT and cybersecurity risks, including data breaches and ransomware?",
+            "Answers": [
+                {
+                    "Answer": "Regular vulnerability scans",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Proactive threat hunting and penetration testing",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic firewalls and antivirus",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Reactive",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Zero-trust architecture with AI-driven threat response",
+                    "Points": 5
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate clinical and operational risks (e.g., medical errors, supply chain disruptions)?",
+            "Answers": [
+                {
+                    "Answer": "Manual checks",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Real-time clinical and operational risk monitoring with AI",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Predictive modeling for operational risks",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Advanced analytics for clinical risk",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Basic risk assessments",
+                    "Points": 2
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "Do you use scenario analysis to evaluate resilience against pandemics or supply chain disruptions?",
+            "Answers": [
+                {
+                    "Answer": "No",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Occasionally, for major events",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Continuously, with automated scenario modeling",
+                    "Points": 5
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How does your organization identify and respond to emerging risks (e.g., new treatments, regulatory changes)?",
+            "Answers": [
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Ad-hoc discussions",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Dedicated risk intelligence team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "AI-driven horizon scanning with automated alerts",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Predictive analytics for trend forecasting",
+                    "Points": 4
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you promote a risk-aware culture among healthcare staff?",
+            "Answers": [
+                {
+                    "Answer": "No formal training",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Gamified risk training programs",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Regular risk awareness workshops",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Annual compliance training",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Continuous microlearning with real-time feedback",
+                    "Points": 5
+                }
+            ],
+            "Weight": 1,
+            "Max Points": 5
+        },
+        {
+            "Question": "How do you manage risks associated with adopting new medical technologies (e.g., AI diagnostics, telemedicine)?",
+            "Answers": [
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Sandbox environments with real-time risk monitoring",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Ad-hoc risk assessments",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Dedicated innovation risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Pilot programs with risk controls",
+                    "Points": 4
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you monitor and mitigate reputational risks (e.g., patient complaints, media coverage)?",
+            "Answers": [
+                {
+                    "Answer": "AI-driven reputational risk prediction and response",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Real-time brand monitoring tools",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Reactive PR responses",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Basic sentiment analysis",
+                    "Points": 3
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How often do you test your business continuity and disaster recovery (BC/DR) plans?",
+            "Answers": [
+                {
+                    "Answer": "Monthly, with automated failover testing",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you ensure compliance with data privacy regulations (e.g., GDPR, HIPAA)?",
+            "Answers": [
+                {
+                    "Answer": "Automated data mapping and consent management",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic encryption and access controls",
+                    "Points": 2
+                },
+                {
+                    "Answer": "AI-driven privacy compliance with real-time audits",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Dedicated data protection officer (DPO)",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Manual checks",
+                    "Points": 1
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate risks in your pharmaceutical supply chain?",
+            "Answers": [
+                {
+                    "Answer": "Real-time supply chain risk monitoring with AI",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Predictive analytics for supply chain disruptions",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic vendor audits",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Regular risk assessments",
+                    "Points": 3
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you integrate ESG risks into your healthcare strategy?",
+            "Answers": [
+                {
+                    "Answer": "Dedicated ESG risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Real-time ESG risk monitoring with automated reporting",
+                    "Points": 5
+                },
+                {
+                    "Answer": "ESG metrics linked to executive incentives",
+                    "Points": 4
+                },
+                {
+                    "Answer": "No formal integration",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Basic ESG reporting",
+                    "Points": 2
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        }
+    ],
+    "Manufacturing (Automotive, Engineering, Chemicals)": [
+        {
+            "Question": "How frequently does your organization review and update its risk management policies to align with industry regulations (e.g., ISO 9001, REACH, OSHA)?",
+            "Answers": [
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Rarely or never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Continuously/real-time",
+                    "Points": 5
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "Does your board actively participate in risk oversight, including supply chain and operational risks?",
+            "Answers": [
+                {
+                    "Answer": "Occasionally",
+                    "Points": 2
+                },
+                {
+                    "Answer": "No",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Yes, with integrated risk dashboards for real-time monitoring",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Yes, but only for major risks",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Yes, with dedicated risk committees",
+                    "Points": 4
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you ensure compliance with environmental and safety regulations (e.g., REACH, OSHA)?",
+            "Answers": [
+                {
+                    "Answer": "Manual processes",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Fully integrated compliance platforms with real-time reporting",
+                    "Points": 5
+                },
+                {
+                    "Answer": "AI-driven anomaly detection",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Advanced monitoring systems",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Basic automated checks",
+                    "Points": 2
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How often do you conduct third-party vendor risk assessments for critical suppliers?",
+            "Answers": [
+                {
+                    "Answer": "Continuously, with automated alerts",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "What is your approach to managing IT and operational technology (OT) cybersecurity risks?",
+            "Answers": [
+                {
+                    "Answer": "Zero-trust architecture with AI-driven threat response",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Reactive",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Proactive threat hunting and penetration testing",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic firewalls and antivirus",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Regular vulnerability scans",
+                    "Points": 3
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate supply chain risks (e.g., geopolitical, logistics)?",
+            "Answers": [
+                {
+                    "Answer": "Basic risk assessments",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Real-time supply chain risk monitoring with AI",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Manual checks",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Predictive modeling for disruptions",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Advanced analytics for supply chain risk",
+                    "Points": 3
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "Do you use scenario analysis to evaluate resilience against supply chain disruptions?",
+            "Answers": [
+                {
+                    "Answer": "Annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Continuously, with automated scenario modeling",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Occasionally, for major events",
+                    "Points": 2
+                },
+                {
+                    "Answer": "No",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How does your organization identify and respond to emerging risks (e.g., new materials, regulatory changes)?",
+            "Answers": [
+                {
+                    "Answer": "Dedicated risk intelligence team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Predictive analytics for trend forecasting",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Ad-hoc discussions",
+                    "Points": 2
+                },
+                {
+                    "Answer": "AI-driven horizon scanning with automated alerts",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you promote a risk-aware culture among manufacturing staff?",
+            "Answers": [
+                {
+                    "Answer": "Continuous microlearning with real-time feedback",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal training",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Gamified risk training programs",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Annual compliance training",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Regular risk awareness workshops",
+                    "Points": 3
+                }
+            ],
+            "Weight": 1,
+            "Max Points": 5
+        },
+        {
+            "Question": "How do you manage risks associated with adopting new manufacturing technologies (e.g., IoT, automation)?",
+            "Answers": [
+                {
+                    "Answer": "Ad-hoc risk assessments",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Pilot programs with risk controls",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Dedicated innovation risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Sandbox environments with real-time risk monitoring",
+                    "Points": 5
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you monitor and mitigate reputational risks (e.g., product recalls, environmental incidents)?",
+            "Answers": [
+                {
+                    "Answer": "AI-driven reputational risk prediction and response",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Real-time brand monitoring tools",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic sentiment analysis",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Reactive PR responses",
+                    "Points": 2
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How often do you test your business continuity and disaster recovery (BC/DR) plans?",
+            "Answers": [
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Monthly, with automated failover testing",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you ensure compliance with data privacy and intellectual property regulations?",
+            "Answers": [
+                {
+                    "Answer": "Automated data mapping and consent management",
+                    "Points": 4
+                },
+                {
+                    "Answer": "AI-driven privacy compliance with real-time audits",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Dedicated compliance officer",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Basic encryption and access controls",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Manual checks",
+                    "Points": 1
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate environmental and sustainability risks in your operations?",
+            "Answers": [
+                {
+                    "Answer": "Predictive analytics for environmental risks",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Real-time environmental risk monitoring with AI",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Basic audits",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Regular risk assessments",
+                    "Points": 3
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you integrate ESG risks into your manufacturing strategy?",
+            "Answers": [
+                {
+                    "Answer": "No formal integration",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Basic ESG reporting",
+                    "Points": 2
+                },
+                {
+                    "Answer": "ESG metrics linked to executive incentives",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Dedicated ESG risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Real-time ESG risk monitoring with automated reporting",
+                    "Points": 5
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        }
+    ],
+    "Energy & Utilities": [
+        {
+            "Question": "How frequently does your organization review and update its risk management policies to align with energy regulations (e.g., FERC, NERC, EU ETS)?",
+            "Answers": [
+                {
+                    "Answer": "Rarely or never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Continuously/real-time",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "Does your board actively participate in risk oversight, including environmental and operational risks?",
+            "Answers": [
+                {
+                    "Answer": "No",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Occasionally",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Yes, with integrated risk dashboards for real-time monitoring",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Yes, with dedicated risk committees",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Yes, but only for major risks",
+                    "Points": 3
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you ensure compliance with environmental and safety regulations (e.g., EPA, OSHA)?",
+            "Answers": [
+                {
+                    "Answer": "Manual processes",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Fully integrated compliance platforms with real-time reporting",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Basic automated checks",
+                    "Points": 2
+                },
+                {
+                    "Answer": "AI-driven anomaly detection",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Advanced monitoring systems",
+                    "Points": 3
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How often do you conduct third-party vendor risk assessments for critical suppliers and contractors?",
+            "Answers": [
+                {
+                    "Answer": "Continuously, with automated alerts",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "What is your approach to managing IT and operational technology (OT) cybersecurity risks?",
+            "Answers": [
+                {
+                    "Answer": "Zero-trust architecture with AI-driven threat response",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Basic firewalls and antivirus",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Reactive",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Proactive threat hunting and penetration testing",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Regular vulnerability scans",
+                    "Points": 3
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate operational risks (e.g., equipment failure, grid stability)?",
+            "Answers": [
+                {
+                    "Answer": "Advanced analytics for operational risk",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Basic risk assessments",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Real-time operational risk monitoring with AI",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Predictive modeling for equipment failure",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Manual checks",
+                    "Points": 1
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "Do you use scenario analysis to evaluate resilience against energy market volatility?",
+            "Answers": [
+                {
+                    "Answer": "Occasionally, for major events",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Continuously, with automated scenario modeling",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "No",
+                    "Points": 1
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How does your organization identify and respond to emerging risks (e.g., renewable energy transition, regulatory changes)?",
+            "Answers": [
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Dedicated risk intelligence team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Ad-hoc discussions",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Predictive analytics for trend forecasting",
+                    "Points": 4
+                },
+                {
+                    "Answer": "AI-driven horizon scanning with automated alerts",
+                    "Points": 5
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you promote a risk-aware culture among energy sector staff?",
+            "Answers": [
+                {
+                    "Answer": "Annual compliance training",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Gamified risk training programs",
+                    "Points": 4
+                },
+                {
+                    "Answer": "No formal training",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Regular risk awareness workshops",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Continuous microlearning with real-time feedback",
+                    "Points": 5
+                }
+            ],
+            "Weight": 1,
+            "Max Points": 5
+        },
+        {
+            "Question": "How do you manage risks associated with adopting new energy technologies (e.g., smart grids, renewables)?",
+            "Answers": [
+                {
+                    "Answer": "Dedicated innovation risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Pilot programs with risk controls",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Ad-hoc risk assessments",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Sandbox environments with real-time risk monitoring",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you monitor and mitigate reputational risks (e.g., environmental incidents, public perception)?",
+            "Answers": [
+                {
+                    "Answer": "AI-driven reputational risk prediction and response",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Reactive PR responses",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Basic sentiment analysis",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Real-time brand monitoring tools",
+                    "Points": 4
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How often do you test your business continuity and disaster recovery (BC/DR) plans?",
+            "Answers": [
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Monthly, with automated failover testing",
+                    "Points": 5
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you ensure compliance with data privacy and critical infrastructure regulations?",
+            "Answers": [
+                {
+                    "Answer": "Manual checks",
+                    "Points": 1
+                },
+                {
+                    "Answer": "AI-driven privacy compliance with real-time audits",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Dedicated compliance officer",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Basic encryption and access controls",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Automated data mapping and consent management",
+                    "Points": 4
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate environmental and climate change risks in your operations?",
+            "Answers": [
+                {
+                    "Answer": "Regular risk assessments",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Real-time environmental risk monitoring with AI",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Predictive analytics for environmental risks",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic audits",
+                    "Points": 2
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you integrate ESG risks into your energy strategy?",
+            "Answers": [
+                {
+                    "Answer": "Basic ESG reporting",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Real-time ESG risk monitoring with automated reporting",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Dedicated ESG risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "ESG metrics linked to executive incentives",
+                    "Points": 4
+                },
+                {
+                    "Answer": "No formal integration",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        }
+    ],
+    "IT & Telecommunications": [
+        {
+            "Question": "How frequently does your organization review and update its risk management policies to align with IT regulations (e.g., GDPR, NIS Directive, CCPA)?",
+            "Answers": [
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Rarely or never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Continuously/real-time",
+                    "Points": 5
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "Does your board actively participate in risk oversight, including cybersecurity and data privacy risks?",
+            "Answers": [
+                {
+                    "Answer": "Yes, with integrated risk dashboards for real-time monitoring",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Yes, but only for major risks",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Occasionally",
+                    "Points": 2
+                },
+                {
+                    "Answer": "No",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Yes, with dedicated risk committees",
+                    "Points": 4
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you ensure compliance with data privacy and cybersecurity regulations (e.g., GDPR, NIS Directive)?",
+            "Answers": [
+                {
+                    "Answer": "AI-driven anomaly detection",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic automated checks",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Manual processes",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Fully integrated compliance platforms with real-time reporting",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Advanced monitoring systems",
+                    "Points": 3
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How often do you conduct third-party vendor risk assessments for critical service providers (e.g., cloud, SaaS)?",
+            "Answers": [
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Continuously, with automated alerts",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "What is your approach to managing IT and cybersecurity risks, including data breaches and DDoS attacks?",
+            "Answers": [
+                {
+                    "Answer": "Zero-trust architecture with AI-driven threat response",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Proactive threat hunting and penetration testing",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic firewalls and antivirus",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Regular vulnerability scans",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Reactive",
+                    "Points": 1
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate risks associated with digital transformation (e.g., cloud migration, AI adoption)?",
+            "Answers": [
+                {
+                    "Answer": "Predictive modeling for transformation risks",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Real-time digital transformation risk monitoring with AI",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Basic risk assessments",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Advanced analytics for digital risks",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Manual checks",
+                    "Points": 1
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "Do you use scenario analysis to evaluate resilience against cyber threats and IT outages?",
+            "Answers": [
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Continuously, with automated scenario modeling",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Occasionally, for major events",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 3
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How does your organization identify and respond to emerging risks (e.g., quantum computing, new regulations)?",
+            "Answers": [
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "AI-driven horizon scanning with automated alerts",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Ad-hoc discussions",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Dedicated risk intelligence team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Predictive analytics for trend forecasting",
+                    "Points": 4
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you promote a risk-aware culture among IT and telecom staff?",
+            "Answers": [
+                {
+                    "Answer": "Gamified risk training programs",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Regular risk awareness workshops",
+                    "Points": 3
+                },
+                {
+                    "Answer": "No formal training",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Continuous microlearning with real-time feedback",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Annual compliance training",
+                    "Points": 2
+                }
+            ],
+            "Weight": 1,
+            "Max Points": 5
+        },
+        {
+            "Question": "How do you manage risks associated with adopting new technologies (e.g., 5G, edge computing)?",
+            "Answers": [
+                {
+                    "Answer": "Pilot programs with risk controls",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Ad-hoc risk assessments",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Sandbox environments with real-time risk monitoring",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Dedicated innovation risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you monitor and mitigate reputational risks (e.g., data breaches, service outages)?",
+            "Answers": [
+                {
+                    "Answer": "Basic sentiment analysis",
+                    "Points": 3
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "AI-driven reputational risk prediction and response",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Real-time brand monitoring tools",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Reactive PR responses",
+                    "Points": 2
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How often do you test your business continuity and disaster recovery (BC/DR) plans?",
+            "Answers": [
+                {
+                    "Answer": "Monthly, with automated failover testing",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you ensure compliance with data localization and cross-border data transfer regulations?",
+            "Answers": [
+                {
+                    "Answer": "Basic encryption and access controls",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Dedicated compliance officer",
+                    "Points": 3
+                },
+                {
+                    "Answer": "AI-driven privacy compliance with real-time audits",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Automated data mapping and consent management",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Manual checks",
+                    "Points": 1
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate supply chain risks in your IT infrastructure?",
+            "Answers": [
+                {
+                    "Answer": "Basic audits",
+                    "Points": 2
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Real-time supply chain risk monitoring with AI",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Regular risk assessments",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Predictive analytics for supply chain risks",
+                    "Points": 4
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you integrate ESG risks into your IT and telecom strategy?",
+            "Answers": [
+                {
+                    "Answer": "Real-time ESG risk monitoring with automated reporting",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Dedicated ESG risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Basic ESG reporting",
+                    "Points": 2
+                },
+                {
+                    "Answer": "No formal integration",
+                    "Points": 1
+                },
+                {
+                    "Answer": "ESG metrics linked to executive incentives",
+                    "Points": 4
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        }
+    ],
+    "Government & Public Sector": [
+        {
+            "Question": "How frequently does your organization review and update its risk management policies to align with public sector regulations (e.g., FOIA, GDPR, FISMA)?",
+            "Answers": [
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Continuously/real-time",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Rarely or never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "Does your leadership actively participate in risk oversight, including cybersecurity and public trust risks?",
+            "Answers": [
+                {
+                    "Answer": "Yes, but only for major risks",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Occasionally",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Yes, with dedicated risk committees",
+                    "Points": 4
+                },
+                {
+                    "Answer": "No",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Yes, with integrated risk dashboards for real-time monitoring",
+                    "Points": 5
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you ensure compliance with data privacy and transparency regulations (e.g., GDPR, FOIA)?",
+            "Answers": [
+                {
+                    "Answer": "Advanced monitoring systems",
+                    "Points": 3
+                },
+                {
+                    "Answer": "AI-driven anomaly detection",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Fully integrated compliance platforms with real-time reporting",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Manual processes",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Basic automated checks",
+                    "Points": 2
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How often do you conduct third-party vendor risk assessments for critical service providers (e.g., IT contractors, cloud services)?",
+            "Answers": [
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Continuously, with automated alerts",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "What is your approach to managing IT and cybersecurity risks, including nation-state threats?",
+            "Answers": [
+                {
+                    "Answer": "Regular vulnerability scans",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Reactive",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Basic firewalls and antivirus",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Proactive threat hunting and penetration testing",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Zero-trust architecture with AI-driven threat response",
+                    "Points": 5
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate risks associated with public service delivery (e.g., digital services, infrastructure)?",
+            "Answers": [
+                {
+                    "Answer": "Advanced analytics for public service risks",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Predictive modeling for service disruptions",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Basic risk assessments",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Manual checks",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Real-time public service risk monitoring with AI",
+                    "Points": 5
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "Do you use scenario analysis to evaluate resilience against crises (e.g., pandemics, cyberattacks)?",
+            "Answers": [
+                {
+                    "Answer": "No",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Occasionally, for major events",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Continuously, with automated scenario modeling",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 3
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How does your organization identify and respond to emerging risks (e.g., policy changes, public sentiment)?",
+            "Answers": [
+                {
+                    "Answer": "Dedicated risk intelligence team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Predictive analytics for trend forecasting",
+                    "Points": 4
+                },
+                {
+                    "Answer": "AI-driven horizon scanning with automated alerts",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Ad-hoc discussions",
+                    "Points": 2
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you promote a risk-aware culture among public sector employees?",
+            "Answers": [
+                {
+                    "Answer": "Annual compliance training",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Regular risk awareness workshops",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Gamified risk training programs",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Continuous microlearning with real-time feedback",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal training",
+                    "Points": 1
+                }
+            ],
+            "Weight": 1,
+            "Max Points": 5
+        },
+        {
+            "Question": "How do you manage risks associated with adopting new public sector technologies (e.g., AI, blockchain)?",
+            "Answers": [
+                {
+                    "Answer": "Pilot programs with risk controls",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Ad-hoc risk assessments",
+                    "Points": 2
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Dedicated innovation risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Sandbox environments with real-time risk monitoring",
+                    "Points": 5
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you monitor and mitigate reputational risks (e.g., public trust, media coverage)?",
+            "Answers": [
+                {
+                    "Answer": "Basic sentiment analysis",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Real-time brand monitoring tools",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Reactive PR responses",
+                    "Points": 2
+                },
+                {
+                    "Answer": "AI-driven reputational risk prediction and response",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How often do you test your business continuity and disaster recovery (BC/DR) plans?",
+            "Answers": [
+                {
+                    "Answer": "Never",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Annually",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Monthly, with automated failover testing",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Quarterly",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Semi-annually",
+                    "Points": 3
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you ensure compliance with public sector data sharing and transparency regulations?",
+            "Answers": [
+                {
+                    "Answer": "Basic encryption and access controls",
+                    "Points": 2
+                },
+                {
+                    "Answer": "Manual checks",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Automated data mapping and consent management",
+                    "Points": 4
+                },
+                {
+                    "Answer": "AI-driven privacy compliance with real-time audits",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Dedicated compliance officer",
+                    "Points": 3
+                }
+            ],
+            "Weight": 3,
+            "Max Points": 15
+        },
+        {
+            "Question": "How do you assess and mitigate risks in public-private partnerships (PPPs)?",
+            "Answers": [
+                {
+                    "Answer": "Predictive analytics for PPP risks",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Regular risk assessments",
+                    "Points": 3
+                },
+                {
+                    "Answer": "Real-time PPP risk monitoring with AI",
+                    "Points": 5
+                },
+                {
+                    "Answer": "No formal process",
+                    "Points": 1
+                },
+                {
+                    "Answer": "Basic audits",
+                    "Points": 2
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        },
+        {
+            "Question": "How do you integrate ESG and sustainability risks into your public sector strategy?",
+            "Answers": [
+                {
+                    "Answer": "Dedicated ESG risk team",
+                    "Points": 3
+                },
+                {
+                    "Answer": "No formal integration",
+                    "Points": 1
+                },
+                {
+                    "Answer": "ESG metrics linked to executive incentives",
+                    "Points": 4
+                },
+                {
+                    "Answer": "Real-time ESG risk monitoring with automated reporting",
+                    "Points": 5
+                },
+                {
+                    "Answer": "Basic ESG reporting",
+                    "Points": 2
+                }
+            ],
+            "Weight": 2,
+            "Max Points": 10
+        }
+    ]
+}
