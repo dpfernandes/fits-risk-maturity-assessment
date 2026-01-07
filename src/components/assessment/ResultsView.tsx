@@ -1,15 +1,16 @@
-import { calculateScore, getMaturityLevel, questions } from '@/data/questions';
+import { calculateScore, getMaturityLevel, Question } from '@/data/questions';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { CheckCircle2, AlertCircle, TrendingUp, RotateCcw } from 'lucide-react';
 
 interface ResultsViewProps {
   answers: Record<number, number[]>;
+  questions: Question[];
   onRestart: () => void;
 }
 
-export function ResultsView({ answers, onRestart }: ResultsViewProps) {
-  const score = calculateScore(answers);
+export function ResultsView({ answers, questions, onRestart }: ResultsViewProps) {
+  const score = calculateScore(answers, questions);
   const { level, description, color } = getMaturityLevel(score);
 
   const getScoreColor = () => {
@@ -33,50 +34,31 @@ export function ResultsView({ answers, onRestart }: ResultsViewProps) {
       improvements: []
     };
 
-    // Check specific questions for insights
-    if (answers[1]?.includes(0)) {
-      insights.positive.push('Strong Enterprise Risk Management integration');
-    } else {
-      insights.improvements.push('Consider implementing integrated Enterprise Risk Management');
-    }
+    // Analyze high and low scoring questions
+    questions.forEach((q) => {
+      const selectedOptions = answers[q.id] || [];
+      if (selectedOptions.length > 0) {
+        const selectedOptionIndex = selectedOptions[0];
+        const answerPoints = q.points[selectedOptionIndex] || 0;
+        const weightedScore = q.weight * answerPoints;
+        const maxWeightedScore = q.weight * Math.max(...Object.values(q.points));
+        
+        // If score is high (>= 80% of max for this question)
+        if (weightedScore >= maxWeightedScore * 0.8) {
+          insights.positive.push(`Strong performance in: ${q.question.substring(0, 60)}...`);
+        } else if (weightedScore < maxWeightedScore * 0.5) {
+          insights.improvements.push(`Consider improving: ${q.question.substring(0, 60)}...`);
+        }
+      } else {
+        insights.improvements.push(`Missing response: ${q.question.substring(0, 60)}...`);
+      }
+    });
 
-    if (answers[2]?.[0] === 0) {
-      insights.positive.push('Unified ERM software platform');
-    } else if (answers[2]?.[0] !== 0) {
-      insights.improvements.push('Consolidate risk management tools into a single platform');
-    }
-
-    if (answers[6]?.[0] === 0 && answers[6]?.includes(3)) {
-      insights.positive.push('Open risk culture with ethical policies');
-    } else {
-      insights.improvements.push('Develop a more open and transparent risk culture');
-    }
-
-    if (answers[7]?.[0] === 0) {
-      insights.positive.push('Proactive cyber security measures');
-    } else {
-      insights.improvements.push('Strengthen cyber security mitigation efforts');
-    }
-
-    if (answers[8]?.[0] === 0) {
-      insights.positive.push('Active board involvement in risk management');
-    } else {
-      insights.improvements.push('Increase board engagement with risk oversight');
-    }
-
-    if (answers[12]?.[0] === 0) {
-      insights.positive.push('Robust business continuity framework');
-    } else {
-      insights.improvements.push('Establish a comprehensive business continuity plan');
-    }
-
-    if (answers[15]?.[0] === 0) {
-      insights.positive.push('Risk management integrated with strategy');
-    } else {
-      insights.improvements.push('Align risk management with strategic planning');
-    }
-
-    return insights;
+    // Limit to top insights
+    return {
+      positive: insights.positive.slice(0, 4),
+      improvements: insights.improvements.slice(0, 4)
+    };
   };
 
   const insights = getInsights();

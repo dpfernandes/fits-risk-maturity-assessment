@@ -1,188 +1,84 @@
+import questionsData from './risk_maturity_questions.json';
+
+// Type definition for the JSON structure
+interface JsonAnswer {
+  Answer: string;
+  Points: number;
+}
+
+interface JsonQuestion {
+  Question: string;
+  Answers: JsonAnswer[];
+  Weight: number;
+  'Max Points': number;
+}
+
+type JsonQuestionsData = Record<string, JsonQuestion[]>;
+
 export interface Question {
   id: number;
   question: string;
-  type: 'single' | 'multi';
+  type: 'single';
   options: string[];
   points: Record<number, number>; // option index to points
+  weight: number;
+  maxPoints: number;
 }
 
-export const questions: Question[] = [
-  {
-    id: 1,
-    question: "What is the status of your risk management framework?",
-    type: 'multi',
-    options: [
-      "We have Enterprise Risk Management where operational risk framework is integrated into the overall ERM framework, including risk processes and risk functions",
-      "We have a formal governance structure used to manage risk oversight",
-      "We use risk identification and assessment tools (e.g., top down and/or bottom up assessment tools)",
-      "None of the above"
-    ],
-    points: { 0: 3, 1: 2, 2: 2, 3: 0 }
-  },
-  {
-    id: 2,
-    question: "Do you use an Enterprise Risk Management software application?",
-    type: 'single',
-    options: [
-      "Yes, we are all on the same system",
-      "Some of us are on a system",
-      "No"
-    ],
-    points: { 0: 3, 1: 1, 2: 0 }
-  },
-  {
-    id: 3,
-    question: "Do you have a board approved risk appetite and tolerance framework?",
-    type: 'multi',
-    options: [
-      "Yes, our board has approved our risk appetite and tolerance levels",
-      "Yes, and our 2nd line and board monitors adherence to the framework",
-      "No"
-    ],
-    points: { 0: 2, 1: 3, 2: 0 }
-  },
-  {
-    id: 4,
-    question: "What is the state of your governance structure, ERM set-up and defense?",
-    type: 'multi',
-    options: [
-      "Senior management has an effective governance oversight structure with well defined, transparent and consistent lines of responsibilities",
-      "There is a lack of an effective governance structure in general across the organization",
-      "We work with a true Enterprise Risk Management set-up, with one method and platform",
-      "We work with Risk Management in silos"
-    ],
-    points: { 0: 3, 1: 0, 2: 3, 3: 0 }
-  },
-  {
-    id: 5,
-    question: "Which kind of defense model is applied in your organization?",
-    type: 'single',
-    options: [
-      "3 Lines of Defense (3LOD)",
-      "5 Lines of Assurance (5LOA)",
-      "None of the above"
-    ],
-    points: { 0: 2, 1: 3, 2: 0 }
-  },
-  {
-    id: 6,
-    question: "What is the status of your risk culture?",
-    type: 'multi',
-    options: [
-      "Our culture is Open and Aware - people are trained on risk management and transparent on risk issues",
-      "Less open and aware - the culture is open but could be improved",
-      "Closed - people are not aware of risk management and/or reluctant to share information",
-      "We have a code of conduct or ethical policy",
-      "We have aligned our compensation policies with our risk appetite and tolerance"
-    ],
-    points: { 0: 3, 1: 1, 2: 0, 3: 2, 4: 2 }
-  },
-  {
-    id: 7,
-    question: "Do you feel comfortable with your mitigation efforts around cyber security?",
-    type: 'single',
-    options: [
-      "Yes",
-      "No"
-    ],
-    points: { 0: 3, 1: 0 }
-  },
-  {
-    id: 8,
-    question: "Is your board actively involved in risk management?",
-    type: 'single',
-    options: [
-      "Yes, our board approves the policies of the framework and provides independent review and best practices",
-      "No"
-    ],
-    points: { 0: 3, 1: 0 }
-  },
-  {
-    id: 9,
-    question: "Do you trust the output from your risk framework in your decision making?",
-    type: 'single',
-    options: [
-      "Yes, our risk framework is advanced enough that risk appetite is set at decision taking time",
-      "No"
-    ],
-    points: { 0: 3, 1: 0 }
-  },
-  {
-    id: 10,
-    question: "Do you consider risks when developing new products, activities, processes, and/or systems?",
-    type: 'multi',
-    options: [
-      "Yes, risk and performance indicators are used to provide insight into risk exposure",
-      "Yes, we have clearly defined key risk indicators and/or key performance indicators",
-      "Yes, we thoroughly assess all aspects consistent with taxonomy and measurement categories",
-      "Yes, we have clearly defined roles and responsibilities to assess and challenge decisions",
-      "No, we do not consider risk this formalized"
-    ],
-    points: { 0: 2, 1: 2, 2: 2, 3: 2, 4: 0 }
-  },
-  {
-    id: 11,
-    question: "Do you have a reporting structure to ensure risk profiles are monitored and actions are taken?",
-    type: 'multi',
-    options: [
-      "Yes, reports are comprehensive, accurate, consistent and actionable across business lines",
-      "Yes, our reporting is timely and we can produce reports in both normal and stressed conditions",
-      "No"
-    ],
-    points: { 0: 3, 1: 2, 2: 0 }
-  },
-  {
-    id: 12,
-    question: "Do you have a clear business continuity framework?",
-    type: 'single',
-    options: [
-      "Yes, we have established business continuity plans equivalent to our operation size and complexity",
-      "No"
-    ],
-    points: { 0: 3, 1: 0 }
-  },
-  {
-    id: 13,
-    question: "Does your organization currently have organized operational risk training?",
-    type: 'single',
-    options: [
-      "Yes",
-      "No"
-    ],
-    points: { 0: 3, 1: 0 }
-  },
-  {
-    id: 14,
-    question: "Does Internal Audit follow a risk-based approach aligned with 1st and 2nd line risk management?",
-    type: 'single',
-    options: [
-      "Yes, we are one happy family",
-      "No, Internal Auditors fly solo"
-    ],
-    points: { 0: 3, 1: 0 }
-  },
-  {
-    id: 15,
-    question: "Is risk management tied to and involved in strategy work?",
-    type: 'single',
-    options: [
-      "Yes, we perform risk assessments on strategy and objectives",
-      "Not in a formalized way",
-      "Not at all"
-    ],
-    points: { 0: 3, 1: 1, 2: 0 }
-  }
-];
+type QuestionsByIndustry = Record<string, Question[]>;
 
-export const companyTypes = [
-  'Banking, Financial Services & Insurance',
-  'Healthcare & Life Sciences',
-  'Manufacturing (Automotive, Engineering, Chemicals)',
-  'Energy & Utilities',
-  'IT & Telecommunications',
-  'Government & Public Sector',
-  'Other'
-];
+// Transform JSON data to Question format
+function transformQuestions(data: JsonQuestionsData): QuestionsByIndustry {
+  const result: QuestionsByIndustry = {};
+  
+  for (const [industry, questions] of Object.entries(data)) {
+    result[industry] = questions.map((q, index) => {
+      const options: string[] = [];
+      const points: Record<number, number> = {};
+      
+      q.Answers.forEach((answer, answerIndex) => {
+        options.push(answer.Answer);
+        points[answerIndex] = answer.Points;
+      });
+      
+      return {
+        id: index + 1,
+        question: q.Question,
+        type: 'single' as const,
+        options,
+        points,
+        weight: q.Weight,
+        maxPoints: q['Max Points']
+      };
+    });
+  }
+  
+  return result;
+}
+
+export const questionsByIndustry = transformQuestions(questionsData);
+
+// Get questions for a specific industry
+export function getQuestionsForIndustry(industry: string): Question[] {
+  // Handle exact match or partial match
+  if (questionsByIndustry[industry]) {
+    return questionsByIndustry[industry];
+  }
+  
+  // Try to find a match (case-insensitive, partial)
+  const normalizedIndustry = industry.toLowerCase();
+  for (const [key, questions] of Object.entries(questionsByIndustry)) {
+    if (key.toLowerCase().includes(normalizedIndustry) || normalizedIndustry.includes(key.toLowerCase())) {
+      return questions;
+    }
+  }
+  
+  // Default to first industry if no match
+  return Object.values(questionsByIndustry)[0] || [];
+}
+
+// Get all available industry types
+export const companyTypes = Object.keys(questionsByIndustry);
 
 export const annualTurnover = [
   '€0 - 4,999,999',
@@ -198,29 +94,28 @@ export const employeeRanges = [
   'More than 1,500'
 ];
 
-export function calculateScore(answers: Record<number, number[]>): number {
+// Calculate score using Weight × Points
+export function calculateScore(answers: Record<number, number[]>, questions: Question[]): number {
   let totalScore = 0;
   let maxPossible = 0;
 
   questions.forEach((q) => {
     const selectedOptions = answers[q.id] || [];
     
-    // Calculate max possible for this question
-    const maxPoints = Math.max(...Object.values(q.points));
-    if (q.type === 'multi') {
-      // For multi-select, max is sum of all positive point options
-      const positivePoints = Object.values(q.points).filter(p => p > 0);
-      maxPossible += positivePoints.reduce((a, b) => a + b, 0);
-    } else {
-      maxPossible += maxPoints;
-    }
+    // Calculate max possible for this question (Weight × max answer points)
+    const maxAnswerPoints = Math.max(...Object.values(q.points));
+    const questionMaxPoints = q.weight * maxAnswerPoints;
+    maxPossible += questionMaxPoints;
 
-    // Calculate actual score
-    selectedOptions.forEach(optionIdx => {
-      totalScore += q.points[optionIdx] || 0;
-    });
+    // Calculate actual score (Weight × selected answer points)
+    if (selectedOptions.length > 0) {
+      const selectedOptionIndex = selectedOptions[0]; // Single select
+      const answerPoints = q.points[selectedOptionIndex] || 0;
+      totalScore += q.weight * answerPoints;
+    }
   });
 
+  if (maxPossible === 0) return 0;
   return Math.round((totalScore / maxPossible) * 100);
 }
 

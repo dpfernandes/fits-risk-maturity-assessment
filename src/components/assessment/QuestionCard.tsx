@@ -11,50 +11,21 @@ interface QuestionCardProps {
 }
 
 export function QuestionCard({ question, selectedOptions, onSelect, className }: QuestionCardProps) {
-  if (question.type === 'single') {
-    return (
-      <div className={cn("animate-fade-in", className)}>
-        <h2 className="text-xl md:text-2xl font-semibold text-foreground mb-6 font-serif">
-          {question.id}. {question.question}
-        </h2>
-        <RadioGroup
-          value={selectedOptions[0]?.toString() || ''}
-          onValueChange={(value) => onSelect(parseInt(value))}
-          className="space-y-3"
-        >
-          {question.options.map((option, index) => (
-            <label
-              key={index}
-              htmlFor={`option-${question.id}-${index}`}
-              className={cn(
-                "flex items-start space-x-3 p-4 rounded-lg border-2 transition-all duration-200 cursor-pointer hover:border-primary/50 hover:bg-primary/5",
-                selectedOptions.includes(index)
-                  ? "border-primary bg-primary/10"
-                  : "border-border bg-card"
-              )}
-            >
-              <RadioGroupItem value={index.toString()} id={`option-${question.id}-${index}`} className="mt-1" />
-              <span className="text-base leading-relaxed flex-1">
-                {option}
-              </span>
-            </label>
-          ))}
-        </RadioGroup>
-      </div>
-    );
-  }
-
+  // All questions are single-select
   return (
     <div className={cn("animate-fade-in", className)}>
-      <h2 className="text-xl md:text-2xl font-semibold text-foreground mb-2 font-serif">
+      <h2 className="text-xl md:text-2xl font-semibold text-foreground mb-6 font-serif">
         {question.id}. {question.question}
       </h2>
-      <p className="text-muted-foreground mb-6 text-sm">Select all that apply</p>
-      <div className="space-y-3">
+      <RadioGroup
+        value={selectedOptions[0]?.toString() || ''}
+        onValueChange={(value) => onSelect(parseInt(value))}
+        className="space-y-3"
+      >
         {question.options.map((option, index) => (
           <label
             key={index}
-            htmlFor={`option-${question.id}-multi-${index}`}
+            htmlFor={`option-${question.id}-${index}`}
             className={cn(
               "flex items-start space-x-3 p-4 rounded-lg border-2 transition-all duration-200 cursor-pointer hover:border-primary/50 hover:bg-primary/5",
               selectedOptions.includes(index)
@@ -62,18 +33,13 @@ export function QuestionCard({ question, selectedOptions, onSelect, className }:
                 : "border-border bg-card"
             )}
           >
-            <Checkbox
-              id={`option-${question.id}-multi-${index}`}
-              checked={selectedOptions.includes(index)}
-              onCheckedChange={() => onSelect(index)}
-              className="mt-1"
-            />
+            <RadioGroupItem value={index.toString()} id={`option-${question.id}-${index}`} className="mt-1" />
             <span className="text-base leading-relaxed flex-1">
               {option}
             </span>
           </label>
         ))}
-      </div>
+      </RadioGroup>
     </div>
   );
 }
