@@ -174,7 +174,15 @@ export const questions: Question[] = [
   }
 ];
 
-export const companyTypes = ['Financial', 'Non-financial'];
+export const companyTypes = [
+  'Banking, Financial Services & Insurance',
+  'Healthcare & Life Sciences',
+  'Manufacturing (Automotive, Engineering, Chemicals)',
+  'Energy & Utilities',
+  'IT & Telecommunications',
+  'Government & Public Sector',
+  'Other'
+];
 
 export const annualTurnover = [
   '€0 - 4,999,999',
