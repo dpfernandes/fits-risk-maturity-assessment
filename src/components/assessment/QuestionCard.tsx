@@ -1,7 +1,6 @@
 import { Question } from '@/data/questions';
 import { Checkbox } from '@/components/ui/checkbox';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
-import { Label } from '@/components/ui/label';
 import { cn } from '@/lib/utils';
 
 interface QuestionCardProps {
@@ -24,24 +23,21 @@ export function QuestionCard({ question, selectedOptions, onSelect, className }:
           className="space-y-3"
         >
           {question.options.map((option, index) => (
-            <div
+            <label
               key={index}
+              htmlFor={`option-${question.id}-${index}`}
               className={cn(
                 "flex items-start space-x-3 p-4 rounded-lg border-2 transition-all duration-200 cursor-pointer hover:border-primary/50 hover:bg-primary/5",
                 selectedOptions.includes(index)
                   ? "border-primary bg-primary/10"
                   : "border-border bg-card"
               )}
-              onClick={() => onSelect(index)}
             >
-              <RadioGroupItem value={index.toString()} id={`option-${index}`} className="mt-1" />
-              <Label
-                htmlFor={`option-${index}`}
-                className="text-base leading-relaxed cursor-pointer flex-1"
-              >
+              <RadioGroupItem value={index.toString()} id={`option-${question.id}-${index}`} className="mt-1" />
+              <span className="text-base leading-relaxed flex-1">
                 {option}
-              </Label>
-            </div>
+              </span>
+            </label>
           ))}
         </RadioGroup>
       </div>
@@ -56,29 +52,26 @@ export function QuestionCard({ question, selectedOptions, onSelect, className }:
       <p className="text-muted-foreground mb-6 text-sm">Select all that apply</p>
       <div className="space-y-3">
         {question.options.map((option, index) => (
-          <div
+          <label
             key={index}
+            htmlFor={`option-${question.id}-multi-${index}`}
             className={cn(
               "flex items-start space-x-3 p-4 rounded-lg border-2 transition-all duration-200 cursor-pointer hover:border-primary/50 hover:bg-primary/5",
               selectedOptions.includes(index)
                 ? "border-primary bg-primary/10"
                 : "border-border bg-card"
             )}
-            onClick={() => onSelect(index)}
           >
             <Checkbox
-              id={`option-${index}`}
+              id={`option-${question.id}-multi-${index}`}
               checked={selectedOptions.includes(index)}
               onCheckedChange={() => onSelect(index)}
               className="mt-1"
             />
-            <Label
-              htmlFor={`option-${index}`}
-              className="text-base leading-relaxed cursor-pointer flex-1"
-            >
+            <span className="text-base leading-relaxed flex-1">
               {option}
-            </Label>
-          </div>
+            </span>
+          </label>
         ))}
       </div>
     </div>
